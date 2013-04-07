@@ -1,0 +1,13 @@
+Source: vx-repo-openshot
+Section: utils
+Priority: extra
+Maintainer: jlm <joseluismurillogarcia@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://zaragozaciudad.net/azlinux/
+
+Package: vx-repo-openshot
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${python:Depends}
+Description: Instala el repositorio openshot video editor
+ Instala el el repositorio openshot video editor para Vitalinux Edu
